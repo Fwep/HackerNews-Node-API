@@ -1,0 +1,9 @@
+#endpoint: ''
+endpoint: https://us1.prisma.sh/taran-noah-cacacho-be966d/hackernews-node/dev
+
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
+    
